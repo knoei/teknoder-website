@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px 60px;
+}
+
+.nav-items {
+    display: flex;
+    list-style: none;
+    gap: 150px;
+    margin-right: 100px;
+    margin-top: 15px;
+}
+
+.logo a {
+    color: #222;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.nav-items a {
+    color: #444;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.nav-items a:hover {
+    color: #0b74ff;
+}
+
+.nav-items a {
+    transition: 0.3s;
+}
+
+.welcome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 650px;
+    padding: 60px 80px;
+    gap: 60px;
+}
+
+.welcome-content {
+    flex: 1;
+    max-width: 600px;
+}
+
+.welcome-content h1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -2px;
+    color: #1F2937;
+    margin-bottom: 24px;
+}
+
+.welcome-content p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.welcome-button {
+    display: inline-block;
+    padding: 14px 28px;
+    background-color: #2563EB;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.welcome-button:hover {
+    background-color: #1D4ED8;
+}
+
+.welcome-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-image img {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    display: block;
+}
+
+.getoffer-button {
+    margin: -15px -10px;
+    padding: 15px 20px;
+    background-color: #2563EB;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.getoffer-button:hover {
+    cursor: pointer;
+    background-color: #1D4ED8;
+}
+
+.blue-text {
+    color: #2563EB;
+}
