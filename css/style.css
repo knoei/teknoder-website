@@ -5,7 +5,14 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Poppins, sans-serif;
+}
+
+.logo-image {
+    width: 200px;
+    height: auto;
+    margin-top: 7px;
+    padding-left: 30px;
 }
 
 .navbar {
@@ -13,7 +20,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    padding: 20px 60px;
+    padding: 0px 20px;
 }
 
 .nav-items {
@@ -21,7 +28,6 @@ body {
     list-style: none;
     gap: 150px;
     margin-right: 100px;
-    margin-top: 15px;
 }
 
 .logo a {
@@ -31,17 +37,36 @@ body {
 }
 
 .nav-items a {
+    position: relative;
     color: #444;
-    font-size: 16px;
+    font-size: 17px;
+    font-weight: 600;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 .nav-items a:hover {
     color: #0b74ff;
 }
 
-.nav-items a {
+.nav-items a::after {
+    content: '';
+    position:absolute;
+    left: 0;
+    bottom: -8px;
+    width: 0;
+    height: 3px;
+    background: #0b74ff;
+    border-radius: 10px;
     transition: 0.3s;
+}
+
+.nav-items a:hover::after{
+    width: 100%;
+}
+
+.nav-items a.active::after{
+    width: 100%;
 }
 
 .welcome {
@@ -91,19 +116,26 @@ body {
     flex: 1;
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding-right: 100px;
 }
 
 .welcome-image img {
-    width: 100%;
-    max-width: 900px;
+    width: 115%;
+    max-width: 1100px;
     height: auto;
     display: block;
+    transition: transform 0.35s ease;
+}
+
+.welcome-image img:hover {
+    transform: scale(1.05);
 }
 
 .getoffer-button {
     margin: -15px -10px;
     padding: 15px 20px;
+    font-size: 15px;
+    font-weight: 600;
     background-color: #2563EB;
     color: white;
     border: none;
