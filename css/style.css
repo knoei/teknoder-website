@@ -218,3 +218,19 @@ body {
 .service-card li::marker {
     color: #0b74ff;
 }   
+
+.services-header {
+    padding: 100px 80px;
+    text-align: center;     
+}   
+
+.services-header h1 {
+    font-size: 48px;
+    color: #1F2937;
+}
+
+.services-header p {
+    margin-top: 20px;
+    color: #6B7280;
+    line-height: 1.8;
+}
