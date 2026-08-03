@@ -226,7 +226,7 @@ body {
 
 .services-header h1 {
     font-size: 48px;
-    color: #608ae6;
+    color: #2566f3;
 }
 
 .services-header p {
@@ -238,16 +238,16 @@ body {
 .services-container{
     display:grid;
     grid-template-columns:repeat(4,1fr);
-    gap:30px;
-    max-width:1400px;
+    gap: 30px;
+    max-width: 1400px;
 }
 
 .service-card{
     background:#fff;
-    padding:35px 30px;
+    padding: 35px 30px;
     border-radius:12px;
-    box-shadow:0 8px 20px rgb(194, 236, 255);
-    transition:.3s;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+    transition: 0.3s;
 }
 
 .service-card:hover{
@@ -264,4 +264,57 @@ body {
 .service-card p{
     line-height:1.7;
     color:#6B7280;
+}
+
+.why-us {
+    padding: 100px 80px;
+    background-color: #f8fafc; 
+}   
+
+.why-title {    
+    text-align: center;
+    margin-bottom: 60px;
+}   
+
+.why-title h2 {
+    font-size: 42px;
+    color: #2566f3;
+    margin-bottom: 20px;
+}   
+
+.why-title p {
+    max-width: 700px;
+    margin: 0 auto;
+    color: #6B7280;
+    font-size: 17px; 
+    line-height: 1.8;
+}   
+
+.why-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 25px;
+    max-width: 1400px;
+    margin: 0 auto;
+}   
+
+.why-card {
+    background: white;
+    padding: 35px 25px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+    transition: 0.3s;
+    cursor: pointer;
+}   
+
+.why-card:hover {
+    transform: translateY(-8px);
+    box-shadow:0 8px 20px rgb(194, 236, 255);
+}   
+
+.why-card h3 {
+    font-size: 21px;
+    color: #1F2937;
+    line-height: 1.5;
 }
