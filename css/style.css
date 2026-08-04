@@ -193,7 +193,7 @@ body {
 }   
 
 .service-card {
-    padding: 35px;
+    padding: 40px 30px;
     background-color: white;
     border-radius: 12px;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.88);
@@ -247,12 +247,12 @@ body {
     padding: 35px 30px;
     border-radius:12px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
-    transition: 0.3s;
+    transition: 0.35s ease;
 }
 
 .service-card:hover{
-    transform:translateY(-8px);
     box-shadow:0 8px 20px rgb(194, 236, 255);
+    transform:translateY(-8px) scale(1.02);
 }
 
 .service-card h3{
@@ -318,3 +318,4 @@ body {
     color: #1F2937;
     line-height: 1.5;
 }
+
