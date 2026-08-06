@@ -441,3 +441,30 @@ body {
     color: #6b7280;
     font-size: 14px;
 }
+
+.mission-vision {
+    display: flex;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 80px auto;
+}   
+
+.mission-card,
+.vision-card {
+    flex: 1;
+    background: #fff;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}   
+
+.mission-card:hover,
+.vision-card:hover {
+    transform: #2563eb;
+}   
+
+.mission-card h2,
+.vision-card h2 {
+    color: #2563eb;
+    margin-bottom: 20px;
+}   
