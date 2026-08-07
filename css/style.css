@@ -485,7 +485,7 @@ body {
 }
 
 .contact-header i{
-    color:#608ae6;
+    color:#2563eb;
     font-size:64px;
     transition:.3s;
 }
@@ -533,19 +533,9 @@ body {
     flex: 1;
 }
 
-.contact-label{
-    display: inline-block;
-    padding: 8px 16px;
-    margin-bottom: 15px;
-    background: #eff6ff;
-    color: #2566f3;
-    border-radius: 20px;
-    font-weight: 600;
-}
-
 .contact-form-section h2{
     font-size: 40px;
-    color: #1f2937;
+    color: #2563eb;
     margin-bottom: 15px;
 }
 
