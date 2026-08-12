@@ -755,7 +755,28 @@ body {
         width: 100%;
     }   
 
-}
+    .services-container {
+        grid-template-columns: repeat(2, 1fr);
+    }   
+
+    .service-card {
+        padding: 25px;
+    }   
+
+    .about-image img {
+        max-width: 400px;
+    }   
+
+    .about-content {
+        font-size: 40px;
+    }   
+
+    .why-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }   
+
+}   
 
 @media (max-width: 768px) {
 
@@ -773,7 +794,7 @@ body {
     .nav-items {
         flex-wrap: wrap;
         justify-content: center;
-        gap: 15px;
+        gap: 30px;
         margin-right: 0;
     }   
 
@@ -806,4 +827,34 @@ body {
         max-width: 380px;
     }   
 
+    .services-container {
+        grid-template-columns: 1fr;
+    }   
+
+    .service-card {
+        padding: 20px;
+    }
+
+    .about-hero {
+        flex-direction: column;
+        text-align: center;
+    }   
+
+    .about-stats {
+        flex-direction: column;
+    }   
+
+    .why-container {
+        grid-template-columns: 1fr;
+    }   
+
+    .why-title h2 {
+        font-size: 32px;
+    }   
+
+    .why-card {
+        padding: 25px 20px;
+    }   
+
 }   
+
