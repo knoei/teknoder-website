@@ -186,18 +186,11 @@ body {
 
 .services-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns:repeat(4,1fr);
     gap: 30px;
     max-width: 1200px;
     margin: 0 auto;
-}   
-
-.service-card {
-    padding: 40px 30px;
-    background-color: white;
-    border-radius: 12px;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.88);
-}   
+}    
 
 .service-card h3 {
     margin-bottom: 20px;
@@ -233,13 +226,6 @@ body {
     margin-top: 50px;
     color: #6B7280;
     line-height: 1.8;
-}
-
-.services-container{
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap: 30px;
-    max-width: 1400px;
 }
 
 .service-card{
@@ -671,9 +657,10 @@ body {
 
 .footer-container {
     max-width: 1200px;
-    margin: 0 150px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     gap: 60px;
 }   
 
@@ -718,10 +705,9 @@ body {
 }   
 
 .footer-logo{
-    width: 300px;
+    width: 220px;
     height: auto;
     margin-bottom: 10px;
-    margin-left: -200px;
 }
 
 .footer-contact p{
@@ -763,10 +749,6 @@ body {
         padding: 25px;
     }   
 
-    .about-image img {
-        max-width: 400px;
-    }   
-
     .about-content {
         font-size: 40px;
     }   
@@ -776,7 +758,77 @@ body {
         gap: 20px;
     }   
 
-}   
+    .about-page {
+        padding: 60px 40px;
+    }   
+
+    .about-landing {
+        gap: 40px;
+        padding: 50px 40px;
+    }   
+
+    .about-image img {
+        max-width: 400px;
+    }   
+
+    .about-content h1 {
+        font-size: 38px;
+    }   
+
+    .about-content p {
+        font-size: 15px;
+    }   
+
+    .mission-vision {
+        gap: 25px;
+        margin: 60px auto;
+    }   
+    
+    .contact-page {
+        padding: 60px 40px;
+    }   
+
+    .contact-section {
+        gap: 40px;
+        padding: 40px;
+    }   
+
+    .contact-image img {
+        width: 100%;
+        max-width: 350px;
+    }   
+
+    .contact-form-section h2 {
+        font-size: 36px;
+    }   
+
+    .contact-bottom {
+        gap: 30px;
+        padding: 0 40px 60px;
+    }   
+
+    .map-box iframe {
+        height: 350px;
+    }   
+
+    .footer {
+        padding: 40px 40px 15px;
+    }   
+
+    .footer-container {
+        gap: 35px;
+    }   
+
+    .footer-logo {
+        width: 130px;
+    }   
+
+    .footer-contact p,
+    .footer-links a {
+        font-size: 14px;
+    }   
+
+}       
 
 @media (max-width: 768px) {
 
@@ -855,6 +907,165 @@ body {
     .why-card {
         padding: 25px 20px;
     }   
+
+    .about-page {
+        padding: 40px 20px;
+    }   
+
+    .about-landing {
+        flex-direction: column;
+        padding: 30px 20px;
+        gap: 35px;
+        text-align: center;
+    }
+
+    .about-image {
+        width: 100%;
+    }   
+    
+    .about-image img {
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+    }   
+
+    .about-content {
+        width: 100%;
+    }   
+
+    .about-content h1 {
+        font-size: 32px;
+        line-height: 1.25;
+    }
+
+    .about-content h1 span {
+        display: block;
+        margin-top: 5px;
+    }   
+
+    .about-content p {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    .about-stats {
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+        margin-top: 30px;
+    }
+
+    .stat-item,
+    .stat-item1 {
+        width: 100%;
+        text-align: center;
+    }   
+
+    .mission-vision {
+        flex-direction: column;
+        gap: 25px;
+        margin: 50px auto;
+    }   
+
+    .mission-card,
+    .vision-card {
+        width: 100%;
+        padding: 25px;
+    }   
+
+    .contact-page {
+        padding: 40px 20px;
+    }   
+
+    .contact-section {
+        flex-direction: column;
+        padding: 30px 20px;
+        gap: 30px;
+    }   
+
+    .contact-image {
+        text-align: center;
+    }   
+
+    .contact-image img {
+        width: 100%;
+        max-width: 260px;
+    }   
+
+    .contact-form-section {
+        width: 100%;
+        text-align: center;
+    }   
+
+    .contact-bottom {
+        flex-direction: column;
+        padding: 40px 20px;
+        gap: 30px;
+    }   
+
+    .map-box {
+        width: 100%;
+    }   
+
+    .map-box iframe {
+        width: 100%;
+        height: 300px;
+    }
+
+    .contact-details {
+        width: 100%;
+    }   
+
+    .detail-item {
+        align-items: flex-start;
+    }   
+
+    .contact-header h1 {
+        font-size: 36px;
+    }   
+
+    .footer {
+        padding: 35px 20px 15px;
+    }     
+
+    .footer-about,
+    .footer-links,
+    .footer-contact {
+        width: 100%;
+    }    
+
+    .footer-links ul {
+        list-style: none;
+        padding: 0;
+        margin-top: 10px;
+    }   
+
+    .footer-logo {
+        width: 150px;
+    }   
+
+    .footer-contact p {
+        margin-bottom: 10px;
+        line-height: 1.7;
+        word-break: normal;
+        overflow-wrap: break-word;
+    }   
+
+    .footer-bottom {
+        margin-top: 30px;
+        font-size: 13px;
+    }   
+
+    .footer-container {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        gap: 30px;
+    }   
+
+    .footer-bottom {
+        margin-top: 20px;
+    }
 
 }   
 
