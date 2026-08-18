@@ -65,21 +65,21 @@
                 geçebilirsiniz. Ekibimiz en kısa sürede size dönüş sağlayacaktır.
             </p>
 
-            <form class="contact-form">
+            <form class="contact-form" id="contactForm" novalidate>
 
                 <div class="name-row">
 
-                    <input type="text" placeholder="Ad" required>
+                    <input type="text" id="firstName" placeholder="Ad" required>
 
-                    <input type="text" placeholder="Soyad" required>
+                    <input type="text" id="lastName" placeholder="Soyad" required>
 
                 </div>
 
-                <input type="email" placeholder="E-posta Adresiniz" required>
+                <input type="email" id="email" placeholder="E-posta Adresiniz" required>
 
-                <input type="text" placeholder="Konu" required>
+                <input type="text" id="subject" placeholder="Konu" required>
 
-                <textarea placeholder="Mesajınızı buraya yazınız..." rows="6" required></textarea>
+                <textarea id="message" placeholder="Mesajınızı buraya yazınız..." rows="6" required></textarea>
 
                 <button type="submit">Gönder</button>
 
