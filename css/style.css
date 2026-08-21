@@ -903,7 +903,7 @@ body {
         background: white;
         flex-direction: column;
         align-items: center;
-        gap: 25px;
+        gap: 35px;
         padding: 25px 0;
         margin-right: 0;
         box-shadow: 0 10px 20px rgba( 0, 0, 0, 0.08);
@@ -1161,3 +1161,10 @@ body {
 
 }
 
+.nav-items a.active {
+    color: #0b74ff;
+}   
+
+.nav-items a.active::after {
+    width: 100%;
+}   
